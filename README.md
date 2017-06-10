@@ -3,6 +3,7 @@
 
 # 使用方法
 
+```
 @property(nonatomic,strong)CaptureFaceService * captureFaceService;
 - (CaptureFaceService *)captureFaceService{
     if (!_captureFaceService) {
@@ -30,6 +31,7 @@
         [self handleResultImage:resultImage];
     }];
 }
+```
 
 # 注意:
 1.去opencv 官网,下载iOS的SDK,我demo中用的是2.4版本
